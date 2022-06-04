@@ -1,7 +1,7 @@
-:root{
+:root {
   font-size: 62.5%;
 }
-.escala h2{
+.escala h2 {
   color: #daa520;
   font-size: 3.5rem;
   align-items: center;
@@ -10,83 +10,80 @@
   margin-right: 1.5rem;
 }
 
-#meses{
+#meses {
   width: 97vw;
   height: 50vw;
   font-size: 2.5rem;
   padding: 0.3rem;
   gap: 1.5rem 1.5rem;
   display: grid;
-  grid-template-columns:3;
-  grid-template-rows:4;
-  grid-template-areas: 
-  "m1 m2 m3"
-  "m4 m5 m6"
-  "m7 m8 m9"
-  "m10 m11 m12";
-  
+  grid-template-columns: 3;
+  grid-template-rows: 4;
+  grid-template-areas:
+    'm1 m2 m3'
+    'm4 m5 m6'
+    'm7 m8 m9'
+    'm10 m11 m12';
 }
-body{
-  background: url(Img/fundo\ iasd.jpg);
+body {
+  background: url(./Img/fundo\ iasd.jpg);
 }
 
-.box{
+.box {
   text-transform: uppercase;
   cursor: pointer;
   border-width: 0 0.4rem 0.5rem 0;
   border-radius: 1.5rem;
   border-color: transparent #ddd #999 transparent;
-  background-clip: padding-box;  
+  background-clip: padding-box;
   opacity: 50%;
 }
 
-.box:hover{
-  border-width: 0 0.2rem 0.3rem 0; 
+.box:hover {
+  border-width: 0 0.2rem 0.3rem 0;
   margin-right: 0.4rem;
   position: relative;
   left: 0.2rem;
   top: 0.3rem;
 }
 
-#texto{
-  color:#daa520;
+#texto {
+  color: #daa520;
 }
 
-#janeiro{
+#janeiro {
   grid-area: m1;
 }
-#fevereiro{
+#fevereiro {
   grid-area: m2;
 }
-#marco{
+#marco {
   grid-area: m3;
 }
-#abril{
+#abril {
   grid-area: m4;
 }
-#maio{
+#maio {
   grid-area: m5;
 }
-#junho{
+#junho {
   grid-area: m6;
 }
-#julho{
+#julho {
   grid-area: m7;
 }
-#agosto{
+#agosto {
   grid-area: m8;
 }
-#setembro{
+#setembro {
   grid-area: m9;
 }
-#outubro{
+#outubro {
   grid-area: m10;
 }
-#novembro{
+#novembro {
   grid-area: m11;
 }
-#dezembro{
+#dezembro {
   grid-area: m12;
 }
-
-
